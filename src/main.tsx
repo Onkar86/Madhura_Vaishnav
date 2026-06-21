@@ -6,7 +6,7 @@ import './styles.css'
 
 const router = createRouter({ 
   routeTree,
-  basepath: '/Madhura_Vaishnav/'
+  basepath: '/Madhura_Vaishnav'
 })
 
 declare module '@tanstack/react-router' {
