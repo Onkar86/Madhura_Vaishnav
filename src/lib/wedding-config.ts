@@ -1,0 +1,9 @@
+export const WEDDING_DATE = "2026-07-07T12:31:00+05:30";
+export const BRIDE_MR = "मधुरा";
+export const BRIDE_EN = "Madhura";
+export const GROOM_MR = "वैष्णव";
+export const GROOM_EN = "Vaishnav";
+export const VENUE_MR = "विठ्ठल मंगल कार्यालय, वडाळा";
+export const MAP_LINK = "https://maps.app.goo.gl/example";
+export const FAMILY_MR = "महामुनी व धाराशिवकर परिवार";
+export const CONTACT_PHONE = "9309865542";
