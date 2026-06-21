@@ -6,8 +6,9 @@ export function MusicToggle() {
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
-    // We use a high quality ambient shehnai track
-    audioRef.current = new Audio('https://cdn.pixabay.com/download/audio/2022/05/16/audio_f551b1f810.mp3?filename=indian-classical-music-110023.mp3')
+    // Fixed: Using a stable, hotlink-allowed audio source to prevent 403 Forbidden errors.
+    // Replace this URL with your preferred wedding track (e.g., 'bgm.mp3' placed in public folder)
+    audioRef.current = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3')
     audioRef.current.loop = true
     
     return () => {
